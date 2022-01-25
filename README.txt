@@ -19,7 +19,7 @@ in your terminal in the folder where all the .c and the .h files are.
 
 This code implements 3 different attacks on the authenticated encryption scheme Panther.
 
-First, the program generates a random 128 bits key, a random 128 bits initial value (IV) and a random 512 bits plaintext. Note that the IV is also a nonce. Since Panther has a rate of 64 bits, the plaintext will be processed in 8 blocks. The code does not generate associated data as our attacks work regardless. The key, IV and plaintext are printed by the program. 
+First, the program generates a random 128-bits key, a random 128-bits initial value (IV) and a random 512-bits plaintext. Note that the IV is also a nonce. Since Panther has a rate of 64 bits, the plaintext will be processed in 8 blocks. The code does not generate associated data as our attacks work regardless. The key, IV and plaintext are printed by the program. 
 
 The plaintext is then encrypted with the key and IV. The corresponding ciphertext and tag are returned. Both are also printed by our program. 
 
